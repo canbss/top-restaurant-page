@@ -48,7 +48,7 @@ body{
 
 #about-img{
     flex-basis: 50%;
-    background-image: url(/img/about-img.jpg);
+    background-image: url(./img/about-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +77,7 @@ body{
 
 #menu-img{
     flex-basis: 40%;
-    background-image: url(/img/menu-img.jpg);
+    background-image: url(./img/menu-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,27 +138,27 @@ body{
 }
 
 #breakfast{
-    background-image: url(/img/breakfast.jpg);
+    background-image: url(./img/breakfast.jpg);
 }
 
 #lunch{
-    background-image: url(/img/lunch.jpg);
+    background-image: url(./img/lunch.jpg);
 }
 
 #dinner{
-    background-image: url(/img/dinner.jpg);
+    background-image: url(./img/dinner.jpg);
 }
 
 #seafood{
-    background-image: url(/img/seafood.jpg);
+    background-image: url(./img/seafood.jpg);
 }
 
 #bbq{
-    background-image: url(/img/bbq.jpg);
+    background-image: url(./img/bbq.jpg);
 }
 
 #beverage{
-    background-image: url(/img/beverages.jpg);
+    background-image: url(./img/beverages.jpg);
 }
 
 #contact-section{
@@ -208,7 +208,7 @@ body{
     margin-top: 100px;
     width: 95vw;
     height: 70vh;
-    background-image: url(/img/langing-img.jpg);
+    background-image: url(./img/langing-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
