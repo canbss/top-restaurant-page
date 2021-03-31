@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: #f9f6f6;
+}
+
+#tabs{
+    width: 95vw;
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #2f2d2d;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+.tab{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tab:hover{
+    cursor: pointer;
+    color:#837f7f;
+}
+
+#about-section{
+    margin-top: 100px;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#about-img{
+    flex-basis: 50%;
+    background-image: url(../img/about-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#about-content{
+    flex-basis: 50%;
+    text-align: center;
+    padding-left: 80px;
+    color:#2f2d2d;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+#menu-section{
+    margin-top: 100px;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#menu-img{
+    flex-basis: 40%;
+    background-image: url(../img/menu-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#menu-tabs{
+    flex-basis:60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 15px;
+    margin-right: 50px;
+    height: 70%;
+    align-self: center;
+}
+
+.menu-tab{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.menu-tab:hover{
+    cursor: pointer;
+    animation-name: animateBackgroundSize;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.menu-tab p{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f636;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+}
+
+.menu-tab p:hover{
+    background-color: #f9f6f611;
+}
+
+@keyframes animateBackgroundSize{
+    100%{
+        background-size: 130% 130%;
+    }
+}
+
+#breakfast{
+    background-image: url(../img/breakfast.jpg);
+}
+
+#lunch{
+    background-image: url(../img/lunch.jpg);
+}
+
+#dinner{
+    background-image: url(../img/dinner.jpg);
+}
+
+#seafood{
+    background-image: url(../img/seafood.jpg);
+}
+
+#bbq{
+    background-image: url(../img/bbq.jpg);
+}
+
+#beverage{
+    background-image: url(../img/beverages.jpg);
+}
+
+#contact-section{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color:#2f2d2d;
+}
+
+#contact-section label{
+    margin-bottom: 5px;
+}
+
+#contact-section input{
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+#message{
+    min-height: 100px;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+#contact-section button{
+    margin-top: 15px;
+    font-family: inherit;
+    height: 40px;
+    font-size: 0.9rem;
+    background-color: #b39696;
+    border:none;
+    border-radius: 5px;
+    color:#1d1c1c;
+}
+
+#contact-section button:hover{
+    cursor: pointer;
+    background-color: #8d7474;
+}
+
+#landing-section{
+    margin: auto;
+    margin-top: 100px;
+    width: 95vw;
+    height: 70vh;
+    background-image: url(../img/langing-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#landing-section p{
+    font-family: 'Poppins', sans-serif;
+    color: #141313;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8a80807c;
+    border-radius: 20px;
+}
